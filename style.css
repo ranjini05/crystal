@@ -1,0 +1,27 @@
+/*Remove Browser styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img{
+    width: 10%;
+    height: 10%;
+}
+header {
+    background-color: azure;
+}
+    .header ::content {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: 150px;
+
+}
