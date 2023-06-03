@@ -1,8 +1,13 @@
+/*fonts*/
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+</style>
 /*Remove Browser styles*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 li {
     list-style-type: none;
@@ -11,17 +16,25 @@ a {
     text-decoration: none;
 }
 img{
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 60%;
 }
 header {
-    background-color: azure;
+    min-height: 100vh;
+    background-color: url(/image/clgg.jpg) ;
 }
-    .header ::content {
-    width: 95%;
+    .header-content {
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: 150px;
 
+}
+.nav-links {
+    display: flex;
+    background-color: rgb(214, 224, 213);
+    width: 100;
+    justify-content: space-between;
+    align-items: center;
 }
